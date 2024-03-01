@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+</head>
+<body>
+    <h1>MULTA</h1>
+    Velocidade do carro: <input type="number" name="v1" id="v1" class="v1">Km/h <input type="button" value="Calcular" class="calcular">
+    <p></p>
+
+    <script>
+        const botao = document.querySelector('.calcular')
+        botao.addEventListener('click', calcular)
+       function calcular(){
+            let txtv = document.querySelector('.v1')
+            let v = Number(txtv.value)
+            let resultado = document.querySelector('p')
+            if (v > 80){
+                resultado.innerHTML = `<strong>VOCÊ FOI MULTADO<strong/>`
+            }
+            else{
+                resultado.innerHTML = `Você está dentro da velocidade permitidada`
+            }
+       }
+    </script>
+</body>
+</html>
