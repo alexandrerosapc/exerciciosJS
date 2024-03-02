@@ -1,0 +1,42 @@
+body{
+    background-color: #1965bd;
+    font: normal 18pt arial;
+}
+.informacoes > input{
+    font: normal 16pt arial;
+    width: 200px;
+}
+header{
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.315);
+    padding: 15px 0;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.informacoes,
+section > p{
+    margin-left: 10px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+footer{
+    text-align: center;
+}
