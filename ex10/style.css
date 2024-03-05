@@ -1,0 +1,26 @@
+body{
+    background-color: #7eb145;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.315);
+}
+
+
+#lista{
+    width: 150px;
+}
+
+footer{
+    text-align: center;
+}
